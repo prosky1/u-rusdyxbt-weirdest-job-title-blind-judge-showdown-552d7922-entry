@@ -1,12 +1,12 @@
 // make.fun entry: "Weirdest Job Title: Blind Judge Showdown"
-// One job title (48 characters): a senior executive whose entire
-// portfolio is saying sorry to a machine that never forgives.
+// One job title (22 characters): a corporate exorcist for a
+// haunted kitchen appliance.
 // Written verbatim to /output/entry.txt.
 
 import { mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 
 const TITLE =
-  "Senior Vice President of Apologizing to Printers";
+  "Chief Toaster Exorcist";
 
 const OUT_DIR = "/output";
 const OUT_FILE = `${OUT_DIR}/entry.txt`;
